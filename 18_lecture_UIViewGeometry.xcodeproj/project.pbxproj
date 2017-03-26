@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F99A6AB41E87D2E9008FF36B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F99A6AB31E87D2E9008FF36B /* main.m */; };
+		F99A6AB71E87D2E9008FF36B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F99A6AB61E87D2E9008FF36B /* AppDelegate.m */; };
+		F99A6ABA1E87D2E9008FF36B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F99A6AB91E87D2E9008FF36B /* ViewController.m */; };
+		F99A6ABD1E87D2EA008FF36B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99A6ABB1E87D2EA008FF36B /* Main.storyboard */; };
+		F99A6ABF1E87D2EA008FF36B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99A6ABE1E87D2EA008FF36B /* Assets.xcassets */; };
+		F99A6AC21E87D2EA008FF36B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99A6AC01E87D2EA008FF36B /* LaunchScreen.storyboard */; };
+		F99A6ACD1E87D2EA008FF36B /* _8_lecture_UIViewGeometryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F99A6ACC1E87D2EA008FF36B /* _8_lecture_UIViewGeometryTests.m */; };
+		F99A6AD81E87D2EA008FF36B /* _8_lecture_UIViewGeometryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F99A6AD71E87D2EA008FF36B /* _8_lecture_UIViewGeometryUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F99A6AC91E87D2EA008FF36B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F99A6AA71E87D2E9008FF36B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F99A6AAE1E87D2E9008FF36B;
+			remoteInfo = 18_lecture_UIViewGeometry;
+		};
+		F99A6AD41E87D2EA008FF36B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F99A6AA71E87D2E9008FF36B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F99A6AAE1E87D2E9008FF36B;
+			remoteInfo = 18_lecture_UIViewGeometry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F99A6AAF1E87D2E9008FF36B /* 18_lecture_UIViewGeometry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 18_lecture_UIViewGeometry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99A6AB31E87D2E9008FF36B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F99A6AB51E87D2E9008FF36B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F99A6AB61E87D2E9008FF36B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F99A6AB81E87D2E9008FF36B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F99A6AB91E87D2E9008FF36B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F99A6ABC1E87D2EA008FF36B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F99A6ABE1E87D2EA008FF36B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F99A6AC11E87D2EA008FF36B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F99A6AC31E87D2EA008FF36B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F99A6AC81E87D2EA008FF36B /* 18_lecture_UIViewGeometryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 18_lecture_UIViewGeometryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99A6ACC1E87D2EA008FF36B /* _8_lecture_UIViewGeometryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _8_lecture_UIViewGeometryTests.m; sourceTree = "<group>"; };
+		F99A6ACE1E87D2EA008FF36B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F99A6AD31E87D2EA008FF36B /* 18_lecture_UIViewGeometryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 18_lecture_UIViewGeometryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99A6AD71E87D2EA008FF36B /* _8_lecture_UIViewGeometryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _8_lecture_UIViewGeometryUITests.m; sourceTree = "<group>"; };
+		F99A6AD91E87D2EA008FF36B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F99A6AAC1E87D2E9008FF36B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99A6AC51E87D2EA008FF36B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99A6AD01E87D2EA008FF36B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F99A6AA61E87D2E9008FF36B = {
+			isa = PBXGroup;
+			children = (
+				F99A6AB11E87D2E9008FF36B /* 18_lecture_UIViewGeometry */,
+				F99A6ACB1E87D2EA008FF36B /* 18_lecture_UIViewGeometryTests */,
+				F99A6AD61E87D2EA008FF36B /* 18_lecture_UIViewGeometryUITests */,
+				F99A6AB01E87D2E9008FF36B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F99A6AB01E87D2E9008FF36B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F99A6AAF1E87D2E9008FF36B /* 18_lecture_UIViewGeometry.app */,
+				F99A6AC81E87D2EA008FF36B /* 18_lecture_UIViewGeometryTests.xctest */,
+				F99A6AD31E87D2EA008FF36B /* 18_lecture_UIViewGeometryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F99A6AB11E87D2E9008FF36B /* 18_lecture_UIViewGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				F99A6AB51E87D2E9008FF36B /* AppDelegate.h */,
+				F99A6AB61E87D2E9008FF36B /* AppDelegate.m */,
+				F99A6AB81E87D2E9008FF36B /* ViewController.h */,
+				F99A6AB91E87D2E9008FF36B /* ViewController.m */,
+				F99A6ABB1E87D2EA008FF36B /* Main.storyboard */,
+				F99A6ABE1E87D2EA008FF36B /* Assets.xcassets */,
+				F99A6AC01E87D2EA008FF36B /* LaunchScreen.storyboard */,
+				F99A6AC31E87D2EA008FF36B /* Info.plist */,
+				F99A6AB21E87D2E9008FF36B /* Supporting Files */,
+			);
+			path = 18_lecture_UIViewGeometry;
+			sourceTree = "<group>";
+		};
+		F99A6AB21E87D2E9008FF36B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F99A6AB31E87D2E9008FF36B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F99A6ACB1E87D2EA008FF36B /* 18_lecture_UIViewGeometryTests */ = {
+			isa = PBXGroup;
+			children = (
+				F99A6ACC1E87D2EA008FF36B /* _8_lecture_UIViewGeometryTests.m */,
+				F99A6ACE1E87D2EA008FF36B /* Info.plist */,
+			);
+			path = 18_lecture_UIViewGeometryTests;
+			sourceTree = "<group>";
+		};
+		F99A6AD61E87D2EA008FF36B /* 18_lecture_UIViewGeometryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F99A6AD71E87D2EA008FF36B /* _8_lecture_UIViewGeometryUITests.m */,
+				F99A6AD91E87D2EA008FF36B /* Info.plist */,
+			);
+			path = 18_lecture_UIViewGeometryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F99A6AAE1E87D2E9008FF36B /* 18_lecture_UIViewGeometry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F99A6ADC1E87D2EA008FF36B /* Build configuration list for PBXNativeTarget "18_lecture_UIViewGeometry" */;
+			buildPhases = (
+				F99A6AAB1E87D2E9008FF36B /* Sources */,
+				F99A6AAC1E87D2E9008FF36B /* Frameworks */,
+				F99A6AAD1E87D2E9008FF36B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 18_lecture_UIViewGeometry;
+			productName = 18_lecture_UIViewGeometry;
+			productReference = F99A6AAF1E87D2E9008FF36B /* 18_lecture_UIViewGeometry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F99A6AC71E87D2EA008FF36B /* 18_lecture_UIViewGeometryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F99A6ADF1E87D2EA008FF36B /* Build configuration list for PBXNativeTarget "18_lecture_UIViewGeometryTests" */;
+			buildPhases = (
+				F99A6AC41E87D2EA008FF36B /* Sources */,
+				F99A6AC51E87D2EA008FF36B /* Frameworks */,
+				F99A6AC61E87D2EA008FF36B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F99A6ACA1E87D2EA008FF36B /* PBXTargetDependency */,
+			);
+			name = 18_lecture_UIViewGeometryTests;
+			productName = 18_lecture_UIViewGeometryTests;
+			productReference = F99A6AC81E87D2EA008FF36B /* 18_lecture_UIViewGeometryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F99A6AD21E87D2EA008FF36B /* 18_lecture_UIViewGeometryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F99A6AE21E87D2EA008FF36B /* Build configuration list for PBXNativeTarget "18_lecture_UIViewGeometryUITests" */;
+			buildPhases = (
+				F99A6ACF1E87D2EA008FF36B /* Sources */,
+				F99A6AD01E87D2EA008FF36B /* Frameworks */,
+				F99A6AD11E87D2EA008FF36B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F99A6AD51E87D2EA008FF36B /* PBXTargetDependency */,
+			);
+			name = 18_lecture_UIViewGeometryUITests;
+			productName = 18_lecture_UIViewGeometryUITests;
+			productReference = F99A6AD31E87D2EA008FF36B /* 18_lecture_UIViewGeometryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F99A6AA71E87D2E9008FF36B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Slava;
+				TargetAttributes = {
+					F99A6AAE1E87D2E9008FF36B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F99A6AC71E87D2EA008FF36B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F99A6AAE1E87D2E9008FF36B;
+					};
+					F99A6AD21E87D2EA008FF36B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F99A6AAE1E87D2E9008FF36B;
+					};
+				};
+			};
+			buildConfigurationList = F99A6AAA1E87D2E9008FF36B /* Build configuration list for PBXProject "18_lecture_UIViewGeometry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F99A6AA61E87D2E9008FF36B;
+			productRefGroup = F99A6AB01E87D2E9008FF36B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F99A6AAE1E87D2E9008FF36B /* 18_lecture_UIViewGeometry */,
+				F99A6AC71E87D2EA008FF36B /* 18_lecture_UIViewGeometryTests */,
+				F99A6AD21E87D2EA008FF36B /* 18_lecture_UIViewGeometryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F99A6AAD1E87D2E9008FF36B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99A6AC21E87D2EA008FF36B /* LaunchScreen.storyboard in Resources */,
+				F99A6ABF1E87D2EA008FF36B /* Assets.xcassets in Resources */,
+				F99A6ABD1E87D2EA008FF36B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99A6AC61E87D2EA008FF36B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99A6AD11E87D2EA008FF36B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F99A6AAB1E87D2E9008FF36B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99A6ABA1E87D2E9008FF36B /* ViewController.m in Sources */,
+				F99A6AB71E87D2E9008FF36B /* AppDelegate.m in Sources */,
+				F99A6AB41E87D2E9008FF36B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99A6AC41E87D2EA008FF36B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99A6ACD1E87D2EA008FF36B /* _8_lecture_UIViewGeometryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99A6ACF1E87D2EA008FF36B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99A6AD81E87D2EA008FF36B /* _8_lecture_UIViewGeometryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F99A6ACA1E87D2EA008FF36B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F99A6AAE1E87D2E9008FF36B /* 18_lecture_UIViewGeometry */;
+			targetProxy = F99A6AC91E87D2EA008FF36B /* PBXContainerItemProxy */;
+		};
+		F99A6AD51E87D2EA008FF36B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F99A6AAE1E87D2E9008FF36B /* 18_lecture_UIViewGeometry */;
+			targetProxy = F99A6AD41E87D2EA008FF36B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F99A6ABB1E87D2EA008FF36B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F99A6ABC1E87D2EA008FF36B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F99A6AC01E87D2EA008FF36B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F99A6AC11E87D2EA008FF36B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F99A6ADA1E87D2EA008FF36B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F99A6ADB1E87D2EA008FF36B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F99A6ADD1E87D2EA008FF36B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 18_lecture_UIViewGeometry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slavchik.-8-lecture-UIViewGeometry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F99A6ADE1E87D2EA008FF36B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 18_lecture_UIViewGeometry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slavchik.-8-lecture-UIViewGeometry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F99A6AE01E87D2EA008FF36B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 18_lecture_UIViewGeometryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slavchik.-8-lecture-UIViewGeometryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/18_lecture_UIViewGeometry.app/18_lecture_UIViewGeometry";
+			};
+			name = Debug;
+		};
+		F99A6AE11E87D2EA008FF36B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 18_lecture_UIViewGeometryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slavchik.-8-lecture-UIViewGeometryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/18_lecture_UIViewGeometry.app/18_lecture_UIViewGeometry";
+			};
+			name = Release;
+		};
+		F99A6AE31E87D2EA008FF36B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 18_lecture_UIViewGeometryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slavchik.-8-lecture-UIViewGeometryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 18_lecture_UIViewGeometry;
+			};
+			name = Debug;
+		};
+		F99A6AE41E87D2EA008FF36B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 18_lecture_UIViewGeometryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slavchik.-8-lecture-UIViewGeometryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 18_lecture_UIViewGeometry;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F99A6AAA1E87D2E9008FF36B /* Build configuration list for PBXProject "18_lecture_UIViewGeometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99A6ADA1E87D2EA008FF36B /* Debug */,
+				F99A6ADB1E87D2EA008FF36B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F99A6ADC1E87D2EA008FF36B /* Build configuration list for PBXNativeTarget "18_lecture_UIViewGeometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99A6ADD1E87D2EA008FF36B /* Debug */,
+				F99A6ADE1E87D2EA008FF36B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F99A6ADF1E87D2EA008FF36B /* Build configuration list for PBXNativeTarget "18_lecture_UIViewGeometryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99A6AE01E87D2EA008FF36B /* Debug */,
+				F99A6AE11E87D2EA008FF36B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F99A6AE21E87D2EA008FF36B /* Build configuration list for PBXNativeTarget "18_lecture_UIViewGeometryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99A6AE31E87D2EA008FF36B /* Debug */,
+				F99A6AE41E87D2EA008FF36B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F99A6AA71E87D2E9008FF36B /* Project object */;
+}
